@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Logo e título -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="113dp"
+            android:layout_height="83dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/unifor_logo" />
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espaço Cultural"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Novo texto adicional -->
+    <TextView
+        android:id="@+id/novo_texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="     O Espaço Cultural Unifor se constitui um dos mais importantes instrumentos de disseminação da arte no Brasil. Ele promove, por meio do acesso gratuito às exposições, a renovação e democratização do conhecimento das identidades artísticas, históricas e culturais do país."
+        android:textSize="16sp" />
+
+    <!-- Parte de exposição em destaque -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/exposicao_titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exposição em Destaque"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/exposicao_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='A exposição "Elas -  De Musas a Autoras" chegou a Unifor, confira:'
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <!-- GridView para as fotos -->
+    <GridView
+        android:id="@+id/fotos_grid"
+        android:layout_width="match_parent"
+        android:layout_height="322dp"
+        android:horizontalSpacing="16dp"
+        android:numColumns="2"
+        android:padding="16dp"
+        android:verticalSpacing="16dp" />
+</LinearLayout>

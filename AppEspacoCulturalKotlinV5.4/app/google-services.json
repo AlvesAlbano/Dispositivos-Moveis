@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "458368173432",
+    "firebase_url": "https://android-banco-de-dados-default-rtdb.firebaseio.com",
+    "project_id": "android-banco-de-dados",
+    "storage_bucket": "android-banco-de-dados.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458368173432:android:50157e47029a482720f48d",
+        "android_client_info": {
+          "package_name": "com.example.appespacoculturalkotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVi_bUk0SQ3kILZv_IoPOURblauTt4ud4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
